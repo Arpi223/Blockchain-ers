@@ -7,6 +7,7 @@ namespace Blockchain
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Block genesisBlock = new Block(); // Creating genesis block
         }
     }
 }
