@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Blockchain
 {
@@ -7,7 +8,8 @@ namespace Blockchain
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Block genesisBlock = new Block(); // Creating genesis block
+            Blockchain blockchain1 = new Blockchain();
+            
         }
     }
 }

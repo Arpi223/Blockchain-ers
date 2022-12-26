@@ -7,20 +7,27 @@ namespace Blockchain
 {
     class Block
     {
-        private string id;
-        private string PreviousId;
-        private string hashId;
-        private string PreviousHashId;
+        public string Id;
+        public string PreviousId;
+        public string HashId;
+        public string PreviousHashId;
 
 
         public Block() // For creating genesis block
         {
-            id = "0";
+            Id = "0";
             PreviousId = "0";
-            hashId = ComputeSha256Hash(id);
+            HashId = ComputeSha256Hash(Id);
             PreviousHashId = ComputeSha256Hash(PreviousId);
-            Console.WriteLine(hashId);
 
+        }
+
+        public Block(string id, string previousId)
+        {
+            Id = id;
+            PreviousId = previousId;
+            HashId = ComputeSha256Hash(Id);
+            PreviousId = ComputeSha256Hash(PreviousId);
         }
 
         static string ComputeSha256Hash(string rawData)
