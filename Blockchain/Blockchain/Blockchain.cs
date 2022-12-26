@@ -6,7 +6,7 @@ namespace Blockchain
 {
     class Blockchain
     {
-        public List<Block> blockchain;
+        public List<Block> blockchain = new List<Block>();
         public Blockchain()
         {
             if (blockchain.Count != 0) {
@@ -15,6 +15,7 @@ namespace Blockchain
             }
             Block genesisBlock = new Block();
             blockchain.Add(genesisBlock);
+            Console.WriteLine("Blockchain created and genesis block added");
         }
 
         public void AddToChain(Block block)
