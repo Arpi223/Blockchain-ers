@@ -1,0 +1,6 @@
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\bin\Debug\Common.dll
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\bin\Debug\Common.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\obj\Debug\Common.dll
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Common\obj\Debug\Common.pdb

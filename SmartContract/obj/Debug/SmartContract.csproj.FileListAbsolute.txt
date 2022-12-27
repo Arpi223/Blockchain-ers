@@ -1,0 +1,11 @@
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\bin\Debug\SmartContract.exe.config
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\bin\Debug\SmartContract.exe
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\bin\Debug\SmartContract.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.csproj.AssemblyReference.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.csproj.SuggestedBindingRedirects.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.csproj.CoreCompileInputs.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.exe
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\bin\Debug\Common.dll
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\bin\Debug\Common.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\SmartContract\obj\Debug\SmartContract.csproj.CopyComplete

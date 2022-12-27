@@ -1,0 +1,11 @@
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\bin\Debug\Client.exe.config
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\bin\Debug\Client.exe
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\bin\Debug\Client.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\bin\Debug\Common.dll
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\bin\Debug\Common.pdb
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.exe
+C:\Users\Duks\Desktop\Code\New folder\Blockchain-ers\Blockchain-ers\Client\obj\Debug\Client.pdb
