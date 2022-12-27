@@ -5,24 +5,32 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlockChain
+namespace Blockchain
 {
-    internal class Miner
+    public class Miner
     {
-        private string Id;
-        private string CurrentState;
-        private bool started = false;
+        private string Id { get; set; }
+        private double CurrentState { get; set; }
+        private bool Started { get; set; }
 
         public string GetId() {
             return Id;
         }
 
-        public string GetCurrentState() {
+        public Miner(string id, double currentState,bool started)
+        {
+            Id = id;
+            CurrentState = currentState;
+            Started = started;
+
+        }
+
+        public double GetCurrentState() {
             return CurrentState;
         }
 
         public bool isStarted() {
-            if (started = true)
+            if (Started == true)
                 return false;
             else
                 return true;

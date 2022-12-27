@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlockChain
+namespace Blockchain
 {
     internal class Program
     {
@@ -13,18 +13,17 @@ namespace BlockChain
             Console.WriteLine("Hello World!");
             Blockchain blockchain1 = new Blockchain();
             List<Miner> Miners = new List<Miner>();
-
-            Miners.Add(new Miner { Id = "1", CurrentState = "0.5323BTC", started = false }) ;
-            Miners.Add(new Miner { Id = "10", CurrentState = "3.1123BTC", started = true });
-            Miners.Add(new Miner { Id = "11", CurrentState = "3.5422BTC", started = false });
-            Miners.Add(new Miner { Id = "5", CurrentState = "1.3244BTC", started = true });
-            Miners.Add(new Miner { Id = "3", CurrentState = "0.0032BTC", started = false });
-            Miners.Add(new Miner { Id = "2", CurrentState = "0.9882BTC", started = true });
-            Miners.Add(new Miner { Id = "4", CurrentState = "0.5342BTC", started = true });
-            Miners.Add(new Miner { Id = "6", CurrentState = "0.2223BTC", started = true });
-            Miners.Add(new Miner { Id = "7", CurrentState = "0.4232BTC", started = false });
-            Miners.Add(new Miner { Id = "8", CurrentState = "2.3232BTC", started = true });
-            Miners.Add(new Miner { Id = "9", CurrentState = "2.9984BTC", started = false });
+            Miners.Add(new Miner("1", 0.5323, false));
+            Miners.Add(new Miner ("10",3.1123,true));
+            Miners.Add(new Miner ("11",3.5422,false));
+            Miners.Add(new Miner ("5",1.3244, true));
+            Miners.Add(new Miner ("3",0.0032,false));
+            Miners.Add(new Miner ("2",0.9882,true));
+            Miners.Add(new Miner ("4",0.5342,true));
+            Miners.Add(new Miner ("6",0.2223,true));
+            Miners.Add(new Miner ("7",0.4232,false));
+            Miners.Add(new Miner ("8",2.3232,true));
+            Miners.Add(new Miner ("9",2.9984,false));
 
 
         }

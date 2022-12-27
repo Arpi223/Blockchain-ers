@@ -1,4 +1,4 @@
-
+/*
 
 
 class SmartContract{
@@ -42,4 +42,4 @@ void sendingBlocksToMiners (){
     }
 
 
-}
+}*/
