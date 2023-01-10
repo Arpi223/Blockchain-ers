@@ -9,7 +9,7 @@ namespace SmartContract
 {
     public class SmartContractMiner : ISmartContractMiner
     {
-        public static List<Miner> Miners { get; set; } = new List<Miner>();
+        public static List<Miner> Miners { get; set; } = new List<Miner>(); 
         private static int currentPort = 4001;
         public Miner LoginMiner()
         {
