@@ -19,16 +19,17 @@ namespace Client
             ChannelFactory<ISmartContractClient> channel = new ChannelFactory<ISmartContractClient>(binding, address);
 
             ISmartContractClient proxy = channel.CreateChannel();
+            while (true)
+            {
+                int counter = 0;
+                Random rand = new Random();
+                Common.Client client = new Common.Client(counter, rand.Next(1000));
+                Console.WriteLine("sending data, "+ client.FormattedString);
+                proxy.Calculate(client);
 
-            int counter = 0;
-            Random rand = new Random();
-            Common.Client client = new Common.Client(counter, rand.Next(1000));
-
-            proxy.Calculate(client);
-
-            counter++;
-            Thread.Sleep(10000);
-
+                counter++;
+                Thread.Sleep(10000);
+            }
 
 
             Console.ReadKey();
