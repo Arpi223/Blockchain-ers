@@ -14,6 +14,7 @@ namespace Common
         void CalculateTask(Client client);
         [OperationContract]
         bool ValidateTask(Client client, int value);
-
+        [OperationContract]
+        void AddToChainConfirmed(Client client);
     }
 }
