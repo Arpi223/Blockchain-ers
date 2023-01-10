@@ -9,38 +9,46 @@ namespace SmartContract
 {
     public class SmartContractMiner : ISmartContractMiner
     {
+        static readonly object Identity = new object();
+
         public static List<Miner> Miners { get; set; } = new List<Miner>(); 
         private static int currentPort = 4001;
         public Miner LoginMiner()
         {
-            int id = 0;
-            foreach (var item in Miners)
+            Miner miner;
+            lock (Identity)
             {
-                if (item.Id > id)
+                int id = 0;
+                foreach (var item in Miners)
                 {
-                    id = item.Id;
+                    if (item.Id > id)
+                    {
+                        id = item.Id;
+                    }
                 }
+
+                id += 1;
+                miner = new Miner(id, currentPort);
+                Miners.Add(miner);
+
+                currentPort += 1;
             }
-
-            id += 1;
-            Miner miner = new Miner(id, currentPort);
-            Miners.Add(miner);
-
-            currentPort += 1;
             return miner;
         }
 
         public List<Miner> ReturnAllMiners(int id)
         {
             List<Miner> miners = new List<Miner>();
-            foreach (var item in Miners)
+            lock (Identity)
             {
-                if (item.Id != id)
+                foreach (var item in Miners)
                 {
-                    miners.Add(item);
+                    if (item.Id != id)
+                    {
+                        miners.Add(item);
+                    }
                 }
             }
-
             return miners;
         }
     }

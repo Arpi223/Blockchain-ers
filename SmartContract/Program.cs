@@ -28,7 +28,7 @@ namespace SmartContract
                 {
                     string addressMiner = "net.tcp://localhost:4000/ISmartContractMiner";
                     NetTcpBinding bindingMiner = new NetTcpBinding();
-
+                     
                     hostMiner.AddServiceEndpoint(typeof(ISmartContractMiner), bindingMiner, addressMiner);
 
                     hostMiner.Open();

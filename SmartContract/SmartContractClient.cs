@@ -12,7 +12,7 @@ namespace SmartContract
     {
         public void Calculate(Client client)
         {
-            Console.WriteLine("Calculate" + client.FormattedString);
+            //Console.WriteLine("Calculate" + client.FormattedString);
 
             Random rand = new Random();
 
