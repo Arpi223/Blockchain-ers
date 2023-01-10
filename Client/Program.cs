@@ -21,7 +21,6 @@ namespace Client
             ISmartContractClient proxy = channel.CreateChannel();
 
             int counter = 0;
-            while (true) { 
             Random rand = new Random();
             Common.Client client = new Common.Client(counter, rand.Next(1000));
 
@@ -29,7 +28,7 @@ namespace Client
 
             counter++;
             Thread.Sleep(10000);
-                }
+
 
 
             Console.ReadKey();

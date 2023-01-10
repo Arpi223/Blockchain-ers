@@ -25,7 +25,7 @@ namespace Common
             Id = 0;
             Value = 0;
             LocalDate = DateTime.Now;
-            FormattedString = "id : " + Id + "  " + "Value : " + Value + " " + "Local date : " +LocalDate.ToString();
+            FormattedString = "id : " + Id + "  " + "Value : " + Value + " " + "Local date : " + LocalDate.ToString();
         }
 
         public Client(int id, int value)

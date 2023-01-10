@@ -47,7 +47,6 @@
     <Compile Include="IMinerSM.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="ISmartContractClient.cs" />
-    <Compile Include="ISmartContractMiner.cs" />
     <Compile Include="Miner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
